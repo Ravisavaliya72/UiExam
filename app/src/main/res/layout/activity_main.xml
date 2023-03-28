@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#1B2350"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3.5"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            android:src="@drawable/deerphotoes"
+            android:scaleType="fitXY"/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="220dp"
+            android:layout_gravity="center_horizontal"
+            app:cardCornerRadius="40dp"
+            android:backgroundTint="#DD0F0F"/>
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+        <androidx.cardview.widget.CardView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="268dp"
+            android:layout_marginLeft="190dp"
+            app:cardCornerRadius="30dp"
+            android:backgroundTint="#E69824"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="200dp"
+            android:layout_height="240dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="140dp"
+            app:cardCornerRadius="30dp"
+            android:backgroundTint="#B54927"/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="250dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="230dp"
+            android:layout_marginLeft="30dp"
+            app:cardCornerRadius="30dp"
+            android:backgroundTint="#4C322A"/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="220dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="415dp"
+            android:layout_marginLeft="40dp"
+            app:cardCornerRadius="30dp"
+            android:backgroundTint="#23201F"
+            app:cardElevation="30dp"/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="110dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="245dp"
+            android:layout_marginLeft="160dp"
+            app:cardCornerRadius="30dp"
+            app:cardCornerRadius="30dp"
+            android:backgroundTint="#987B25"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Saskehh Rio"
+            android:textColor="#F6F2F2"
+            android:textSize="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Creator"
+            android:textColor="#E18E13"
+            android:textSize="35dp"
+            android:layout_marginTop="80dp"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Auction endin in"
+            android:textColor="#F4F2EF"
+            android:textSize="22dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="05:35:09"
+            android:textColor="#F4F2EF"
+            android:textSize="22dp"
+            android:layout_marginTop="180dp"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Higest Bid"
+            android:textColor="#F4F2EF"
+            android:textSize="22dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginLeft="290dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="290 ETH"
+            android:textColor="#F4F2EF"
+            android:textSize="22dp"
+            android:layout_marginTop="180dp"
+            android:layout_marginLeft="310dp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
